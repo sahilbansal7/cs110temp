@@ -10,8 +10,21 @@ public class Celsius extends Temperature {
             super(t);
         }
 
+    @Override
+    public Temperature toCelsius() {
+        //return this;
+        return null;
+    }
 
-        public String toString()
+    @Override
+    public Temperature toFahrenheit() {
+        //float farenheight = (this.value * (9/5)) + 32;
+        //return new Celsius(farenheight);
+        return null;
+    }
+
+
+    public String toString()
         {
             // TODO: Complete this method
             return "";
